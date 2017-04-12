@@ -1,7 +1,5 @@
 package day3;
 
-import java.io.IOException;
-
 import javax.swing.JOptionPane;
 
 public class StephenHawking {
@@ -11,7 +9,7 @@ public class StephenHawking {
 	// 3. call the speak method below and send it the sentence
 	// 4. repeat steps 2 and 3 a lot of times
 	public static void main(String[] args) {
-		for (int x = 0; x < 2; x++){
+		for (int x = 0; x < 20; x++){
 			String sent = JOptionPane.showInputDialog("What would you like to say?");
 			speak(sent);
 		}
